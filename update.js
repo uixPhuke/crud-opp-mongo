@@ -1,6 +1,6 @@
 const { dbConnection } = require("./db");
 
-async function main() {
+async function hero() {
   try {
     const db = await dbConnection();
     const collection = db.collection("users");
@@ -11,4 +11,6 @@ async function main() {
     console.log("Error performing task", error);
   }
 }
-main();
+hero();
+
+console.log(hero)
