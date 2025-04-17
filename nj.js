@@ -1,2 +1,2 @@
-console.log("ns")
+console.log("jjjns")
 console.log("yygh")
