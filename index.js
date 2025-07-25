@@ -5,7 +5,7 @@ const dbName='crudDB'
 
 async function main() {
     await client.connect()
-    console.log('connected to mongoDBserver')
+    console.log('connected to mongoDB database server')
     const db = client.db(dbName)
     const collection = db.collection('users')
     
