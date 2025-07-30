@@ -10,7 +10,7 @@ const dbConnection = async () => {
         const db = client.db(dbName)
         return db;
     } catch (error) {
-        console.log('Failed to connect to db', error)
+        console.log('Failed to connect to  mongodb', error)
         throw error
     }
 
