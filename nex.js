@@ -1,3 +1,3 @@
 console.log("nex.js")
 
-console.log("bg");
+console.log("ghgbg");
