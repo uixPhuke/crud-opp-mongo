@@ -9,7 +9,7 @@ async function main() {
     const deleteResult = await collection.deleteMany(filter);
     console.log(deleteResult.deletedCount);
   } catch (error) {
-    console.log("Error performing task", error);
+    console.log("Error occured performing task", error);
   }
 }
 main();
